@@ -12,7 +12,7 @@ An extended version of seekbar and range seekbar with basic and advanced customi
 Add a dependency to your `build.gradle`:
 ```groovy
 dependencies {
-    compile 'com.crystal:crystalrangeseekbar:1.1.3'
+    implementation 'com.github.tabassumLatif:crystal-range-seekbar:v1.1.4'
 }
 ```
 
