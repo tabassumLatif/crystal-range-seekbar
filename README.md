@@ -41,14 +41,14 @@ Styling with bubble animation using custom widget `BubbleThumbSeekbar`.
     android:id="@+id/rangeSeekbar2"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:corner_radius="10"
-    app:min_value="50"
-    app:max_value="150"
-    app:bar_color="#C69E89"
-    app:bar_highlight_color="#A54B17"
-    app:left_thumb_color="#775E4F"
-    app:left_thumb_color_pressed="#4C2D1A"
-    app:data_type="_integer"/>
+    app:cs_corner_radius="10"
+    app:cs_min_value="50"
+    app:cs_max_value="150"
+    app:cs_bar_color="#C69E89"
+    app:cs_bar_highlight_color="#A54B17"
+    app:cs_left_thumb_color="#775E4F"
+    app:cs_left_thumb_color_pressed="#4C2D1A"
+    app:cs_data_type="_integer"/>
 ```
 ---
 ![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6cHBraW9fUDBMaEU)
@@ -59,15 +59,15 @@ Styling with bubble animation with drawable using custom widget `BubbleThumbSeek
     android:id="@+id/rangeSeekbar3"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:corner_radius="10"
-    app:min_value="0"
-    app:max_value="100"
-    app:steps="5"
-    app:bar_color="#F7BB88"
-    app:bar_highlight_color="#E07416"
-    app:left_thumb_image="@drawable/thumb"
-    app:left_thumb_image_pressed="@drawable/thumb_pressed"
-    app:data_type="_integer"/>
+    app:cs_corner_radius="10"
+    app:cs_min_value="0"
+    app:cs_max_value="100"
+    app:cs_steps="5"
+    app:cs_bar_color="#F7BB88"
+    app:cs_bar_highlight_color="#E07416"
+    app:cs_left_thumb_image="@drawable/thumb"
+    app:cs_left_thumb_image_pressed="@drawable/thumb_pressed"
+    app:cs_data_type="_integer"/>
 ```                    
 ---
 ![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6c0FnSDlVYnJyNVE)
@@ -78,7 +78,7 @@ Right to Left position (rtl)
     android:id="@+id/rangeSeekbar7"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:position="right"/>
+    app:cs_position="right"/>
 ```                    
 ---
 ![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6RncwVndkSFFqMFE)
@@ -248,17 +248,17 @@ Styling with bubble animation with drawable using custom widget `BubbleThumbRang
     android:id="@+id/rangeSeekbar5"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:corner_radius="10"
-    app:min_value="0"
-    app:max_value="100"
-    app:steps="5"
-    app:bar_color="#F7BB88"
-    app:bar_highlight_color="#E07416"
-    app:left_thumb_image="@drawable/thumb"
-    app:right_thumb_image="@drawable/thumb"
-    app:left_thumb_image_pressed="@drawable/thumb_pressed"
-    app:right_thumb_image_pressed="@drawable/thumb_pressed"
-    app:data_type="_integer"/>
+    app:cs_corner_radius="10"
+    app:cs_min_value="0"
+    app:cs_max_value="100"
+    app:cs_steps="5"
+    app:cs_bar_color="#F7BB88"
+    app:cs_bar_highlight_color="#E07416"
+    app:cs_left_thumb_image="@drawable/thumb"
+    app:cs_right_thumb_image="@drawable/thumb"
+    app:cs_left_thumb_image_pressed="@drawable/thumb_pressed"
+    app:cs_right_thumb_image_pressed="@drawable/thumb_pressed"
+    app:cs_data_type="_integer"/>
 ```
 ---
 ![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6bnZJWVZwUGV6TGc)
@@ -269,17 +269,17 @@ Set minimum range (gap).
     android:id="@+id/rangeSeekbar3"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:corner_radius="10"
-    app:min_value="50"
-    app:max_value="100"
-    app:gap="20"
-    app:bar_color="#8990C4"
-    app:bar_highlight_color="#2434AD"
-    app:left_thumb_color="#1A246D"
-    app:right_thumb_color="#1A246D"
-    app:left_thumb_color_pressed="#030B47"
-    app:right_thumb_color_pressed="#030B47"
-    app:data_type="_integer"/>
+    app:cs_corner_radius="10"
+    app:cs_min_value="50"
+    app:cs_max_value="100"
+    app:cs_gap="20"
+    app:cs_bar_color="#8990C4"
+    app:cs_bar_highlight_color="#2434AD"
+    app:cs_left_thumb_color="#1A246D"
+    app:cs_right_thumb_color="#1A246D"
+    app:cs_left_thumb_color_pressed="#030B47"
+    app:cs_right_thumb_color_pressed="#030B47"
+    app:cs_data_type="_integer"/>
 ```
 ---
 ![alt tag](https://drive.google.com/uc?export=view&id=0B9bDENyIABT6eXRMQlkzNjA5cDg)
@@ -290,53 +290,53 @@ Set fix range (gap).
     android:id="@+id/rangeSeekbar4"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:corner_radius="10"
-    app:min_value="0"
-    app:max_value="100"
-    app:fix_gap="30"
-    app:bar_color="#EE88F7"
-    app:bar_highlight_color="#D810EA"
-    app:left_thumb_color="#8D0D99"
-    app:right_thumb_color="#8D0D99"
-    app:left_thumb_color_pressed="#56005E"
-    app:right_thumb_color_pressed="#56005E"
-    app:data_type="_integer"/>
+    app:cs_corner_radius="10"
+    app:cs_min_value="0"
+    app:cs_max_value="100"
+    app:cs_fix_gap="30"
+    app:cs_bar_color="#EE88F7"
+    app:cs_bar_highlight_color="#D810EA"
+    app:cs_left_thumb_color="#8D0D99"
+    app:cs_right_thumb_color="#8D0D99"
+    app:cs_left_thumb_color_pressed="#56005E"
+    app:cs_right_thumb_color_pressed="#56005E"
+    app:cs_data_type="_integer"/>
 ```
 ---
 
 __Available attributes__
 
-+ ``corner_radius``: corner radius to be used seekbar, default ``0f``
-+ ``min_value``: minimum value of seekbar, default ``0``
-+ ``max_value``: maximum value of seekbar, default ``100``
-+ ``min_start_value``: minimum start value must be equal or greater than min value, default ``min_value``
-+ ``max_start_value``: maximum start value must be equal or less than max value, default ``max_value``
-+ ``steps``: minimum steps between range, default NO_STEP ``-1f``
-+ ``gap``: maintain minimum range between two thumbs, range must be greater >= min value && <= max value, default ``0f``
-+ ``bar_height``: bar height, default determined by thumb size
-+ ``fix_gap``: maintain fix range between two thumbs, range must be greater >= min value && <= max value, default NO_FIXED_GAP ``-1f``
-+ ``bar_color_mode`` color fill mode of inactive bar; can be ``ColorMode.SOLID`` or ``ColorMode.GRADIENT``; default is ``ColorMode.SOLID``
-+ ``bar_color`` inactive bar background color, default ``Color.GRAY``
-+ ``bar_gradient_start`` inactive bar background gradient start color, default ``Color.GRAY``
-+ ``bar_gradient_end`` inactive bar background gradient end color, default ``Color.DKGRAY``
-+ ``bar_highlight_color_mode`` color fill mode of active bar; can be ``ColorMode.SOLID`` or ``ColorMode.GRADIENT``; default is ``ColorMode.SOLID``
-+ ``bar_highlight_color`` active bar background color, default ``Color.BLACK``
-+ ``bar_highlight_gradient_start`` active bar background gradient start color, default ``Color.DKGRAY``
-+ ``bar_highlight_gradient_end`` active bar background gradient end color, default ``Color.BLACK``
-+ ``thumb_color`` default thumb color, default ``Color.BLACK`` **(only CrystalSeekbar)**
-+ ``thumb_color_pressed`` active thumb color, default ``Color.DKGRAY`` **(only CrystalSeekbar)**
-+ ``thumb_image`` left drawable, default ``null`` **(only CrystalSeekbar)**
-+ ``thumb_image_pressed`` active thumb drawable, default ``null`` **(only CrystalSeekbar)**
-+ ``left_thumb_color`` default left thumb color, default ``Color.BLACK`` **(only CrystalRangeSeekbar)**
-+ ``left_thumb_color_pressed`` active left thumb color, default ``Color.DKGRAY`` **(only CrystalRangeSeekbar)**
-+ ``left_thumb_image`` left thumb drawable, default ``null`` **(only CrystalRangeSeekbar)**
-+ ``left_thumb_image_pressed`` active left thumb drawable, default ``null`` **(only CrystalRangeSeekbar)**
-+ ``right_thumb_color`` default right thumb color, default ``Color.BLACK`` **(only CrystalRangeSeekbar)**
-+ ``right_thumb_color_pressed`` active right thumb color, default ``Color.DKGRAY`` **(only CrystalRangeSeekbar)**
-+ ``right_thumb_image`` right thumb drawable, default ``null`` **(only CrystalRangeSeekbar)**
-+ ``right_thumb_image_pressed`` active right thumb drawable, default ``null`` **(only CrystalRangeSeekbar)**
-+ ``position`` can be ``left`` or ``right``, default ``left``
-+ ``data_type`` can be ``_long`` or ``_double`` or ``_integer`` or ``_float`` or ``_short`` or ``_byte``, default ``_integer``
++ ``cs_corner_radius``: corner radius to be used seekbar, default ``0f``
++ ``cs_min_value``: minimum value of seekbar, default ``0``
++ ``cs_max_value``: maximum value of seekbar, default ``100``
++ ``cs_min_start_value``: minimum start value must be equal or greater than min value, default ``min_value``
++ ``cs_max_start_value``: maximum start value must be equal or less than max value, default ``max_value``
++ ``cs_steps``: minimum steps between range, default NO_STEP ``-1f``
++ ``cs_gap``: maintain minimum range between two thumbs, range must be greater >= min value && <= max value, default ``0f``
++ ``cs_bar_height``: bar height, default determined by thumb size
++ ``cs_fix_gap``: maintain fix range between two thumbs, range must be greater >= min value && <= max value, default NO_FIXED_GAP ``-1f``
++ ``cs_bar_color_mode`` color fill mode of inactive bar; can be ``ColorMode.SOLID`` or ``ColorMode.GRADIENT``; default is ``ColorMode.SOLID``
++ ``cs_bar_color`` inactive bar background color, default ``Color.GRAY``
++ ``cs_bar_gradient_start`` inactive bar background gradient start color, default ``Color.GRAY``
++ ``cs_bar_gradient_end`` inactive bar background gradient end color, default ``Color.DKGRAY``
++ ``cs_bar_highlight_color_mode`` color fill mode of active bar; can be ``ColorMode.SOLID`` or ``ColorMode.GRADIENT``; default is ``ColorMode.SOLID``
++ ``cs_bar_highlight_color`` active bar background color, default ``Color.BLACK``
++ ``cs_bar_highlight_gradient_start`` active bar background gradient start color, default ``Color.DKGRAY``
++ ``cs_bar_highlight_gradient_end`` active bar background gradient end color, default ``Color.BLACK``
++ ``cs_thumb_color`` default thumb color, default ``Color.BLACK`` **(only CrystalSeekbar)**
++ ``cs_thumb_color_pressed`` active thumb color, default ``Color.DKGRAY`` **(only CrystalSeekbar)**
++ ``cs_thumb_image`` left drawable, default ``null`` **(only CrystalSeekbar)**
++ ``cs_thumb_image_pressed`` active thumb drawable, default ``null`` **(only CrystalSeekbar)**
++ ``cs_left_thumb_color`` default left thumb color, default ``Color.BLACK`` **(only CrystalRangeSeekbar)**
++ ``cs_left_thumb_color_pressed`` active left thumb color, default ``Color.DKGRAY`` **(only CrystalRangeSeekbar)**
++ ``cs_left_thumb_image`` left thumb drawable, default ``null`` **(only CrystalRangeSeekbar)**
++ ``cs_left_thumb_image_pressed`` active left thumb drawable, default ``null`` **(only CrystalRangeSeekbar)**
++ ``cs_right_thumb_color`` default right thumb color, default ``Color.BLACK`` **(only CrystalRangeSeekbar)**
++ ``cs_right_thumb_color_pressed`` active right thumb color, default ``Color.DKGRAY`` **(only CrystalRangeSeekbar)**
++ ``cs_right_thumb_image`` right thumb drawable, default ``null`` **(only CrystalRangeSeekbar)**
++ ``cs_right_thumb_image_pressed`` active right thumb drawable, default ``null`` **(only CrystalRangeSeekbar)**
++ ``cs_position`` can be ``left`` or ``right``, default ``left``
++ ``cs_data_type`` can be ``_long`` or ``_double`` or ``_integer`` or ``_float`` or ``_short`` or ``_byte``, default ``_integer``
 
 ## Changelog
 

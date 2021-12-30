@@ -414,11 +414,11 @@ public class CrystalSeekbar extends View {
     }
 
     public float getDiameter(final TypedArray typedArray) {
-        return typedArray.getDimensionPixelSize(R.styleable.CrystalSeekbar_thumb_diameter, getResources().getDimensionPixelSize(R.dimen.thumb_height));
+        return typedArray.getDimensionPixelSize(R.styleable.CrystalSeekbar_cs_thumb_diameter, getResources().getDimensionPixelSize(R.dimen.thumb_height));
     }
 
     protected boolean isSeekBarTouchEnabled(final TypedArray typedArray){
-        return typedArray.getBoolean(R.styleable.CrystalSeekbar_seek_bar_touch_enabled, false);
+        return typedArray.getBoolean(R.styleable.CrystalSeekbar_cs_seek_bar_touch_enabled, false);
     }
 
     public float getBarPadding() {
@@ -517,83 +517,83 @@ public class CrystalSeekbar extends View {
     }
 
     protected float getCornerRadius(final TypedArray typedArray) {
-        return typedArray.getFloat(R.styleable.CrystalSeekbar_corner_radius, 0f);
+        return typedArray.getFloat(R.styleable.CrystalSeekbar_cs_corner_radius, 0f);
     }
 
     protected float getMinValue(final TypedArray typedArray) {
-        return typedArray.getFloat(R.styleable.CrystalSeekbar_min_value, 0f);
+        return typedArray.getFloat(R.styleable.CrystalSeekbar_cs_min_value, 0f);
     }
 
     protected float getMaxValue(final TypedArray typedArray) {
-        return typedArray.getFloat(R.styleable.CrystalSeekbar_max_value, 100f);
+        return typedArray.getFloat(R.styleable.CrystalSeekbar_cs_max_value, 100f);
     }
 
     protected float getMinStartValue(final TypedArray typedArray) {
-        return typedArray.getFloat(R.styleable.CrystalSeekbar_min_start_value, minValue);
+        return typedArray.getFloat(R.styleable.CrystalSeekbar_cs_min_start_value, minValue);
     }
 
     protected float getSteps(final TypedArray typedArray) {
-        return typedArray.getFloat(R.styleable.CrystalSeekbar_steps, NO_STEP);
+        return typedArray.getFloat(R.styleable.CrystalSeekbar_cs_steps, NO_STEP);
     }
 
     protected float getBarHeight(final TypedArray typedArray){
-        return typedArray.getDimensionPixelSize(R.styleable.CrystalSeekbar_bar_height, 0);
+        return typedArray.getDimensionPixelSize(R.styleable.CrystalSeekbar_cs_bar_height, 0);
     }
 
     protected int getBarColorMode(final TypedArray typedArray) {
-        return typedArray.getInt(R.styleable.CrystalSeekbar_bar_color_mode, ColorMode.SOLID);
+        return typedArray.getInt(R.styleable.CrystalSeekbar_cs_bar_color_mode, ColorMode.SOLID);
     }
 
     protected int getBarColor(final TypedArray typedArray) {
-        return typedArray.getColor(R.styleable.CrystalSeekbar_bar_color, Color.GRAY);
+        return typedArray.getColor(R.styleable.CrystalSeekbar_cs_bar_color, Color.GRAY);
     }
 
     protected int getBarGradientStart(final TypedArray typedArray) {
-        return typedArray.getColor(R.styleable.CrystalSeekbar_bar_gradient_start, Color.GRAY);
+        return typedArray.getColor(R.styleable.CrystalSeekbar_cs_bar_gradient_start, Color.GRAY);
     }
 
     protected int getBarGradientEnd(final TypedArray typedArray) {
-        return typedArray.getColor(R.styleable.CrystalSeekbar_bar_gradient_end, Color.DKGRAY);
+        return typedArray.getColor(R.styleable.CrystalSeekbar_cs_bar_gradient_end, Color.DKGRAY);
     }
 
     protected int getBarHighlightColorMode(final TypedArray typedArray) {
-        return typedArray.getInt(R.styleable.CrystalSeekbar_bar_highlight_color_mode, ColorMode.SOLID);
+        return typedArray.getInt(R.styleable.CrystalSeekbar_cs_bar_highlight_color_mode, ColorMode.SOLID);
     }
 
     protected int getBarHighlightColor(final TypedArray typedArray) {
-        return typedArray.getColor(R.styleable.CrystalSeekbar_bar_highlight_color, Color.BLACK);
+        return typedArray.getColor(R.styleable.CrystalSeekbar_cs_bar_highlight_color, Color.BLACK);
     }
 
     protected int getBarHighlightGradientStart(final TypedArray typedArray) {
-        return typedArray.getColor(R.styleable.CrystalSeekbar_bar_highlight_gradient_start, Color.DKGRAY);
+        return typedArray.getColor(R.styleable.CrystalSeekbar_cs_bar_highlight_gradient_start, Color.DKGRAY);
     }
 
     protected int getBarHighlightGradientEnd(final TypedArray typedArray) {
-        return typedArray.getColor(R.styleable.CrystalSeekbar_bar_highlight_gradient_end, Color.BLACK);
+        return typedArray.getColor(R.styleable.CrystalSeekbar_cs_bar_highlight_gradient_end, Color.BLACK);
     }
 
     protected int getThumbColor(final TypedArray typedArray) {
-        return typedArray.getColor(R.styleable.CrystalSeekbar_thumb_color, Color.BLACK);
+        return typedArray.getColor(R.styleable.CrystalSeekbar_cs_thumb_color, Color.BLACK);
     }
 
     protected int getThumbColorPressed(final TypedArray typedArray) {
-        return typedArray.getColor(R.styleable.CrystalSeekbar_thumb_color_pressed, Color.DKGRAY);
+        return typedArray.getColor(R.styleable.CrystalSeekbar_cs_thumb_color_pressed, Color.DKGRAY);
     }
 
     protected Drawable getThumbDrawable(final TypedArray typedArray) {
-        return typedArray.getDrawable(R.styleable.CrystalSeekbar_thumb_image);
+        return typedArray.getDrawable(R.styleable.CrystalSeekbar_cs_thumb_image);
     }
 
     protected Drawable getThumbDrawablePressed(final TypedArray typedArray) {
-        return typedArray.getDrawable(R.styleable.CrystalSeekbar_thumb_image_pressed);
+        return typedArray.getDrawable(R.styleable.CrystalSeekbar_cs_thumb_image_pressed);
     }
 
     protected int getDataType(final TypedArray typedArray) {
-        return typedArray.getInt(R.styleable.CrystalSeekbar_data_type, DataType.INTEGER);
+        return typedArray.getInt(R.styleable.CrystalSeekbar_cs_data_type, DataType.INTEGER);
     }
 
     protected final int getPosition(final TypedArray typedArray) {
-        final int pos = typedArray.getInt(R.styleable.CrystalSeekbar_position, Position.LEFT);
+        final int pos = typedArray.getInt(R.styleable.CrystalSeekbar_cs_position, Position.LEFT);
 
         normalizedMinValue = (pos == Position.LEFT) ? normalizedMinValue : normalizedMaxValue;
         return pos;
